@@ -1,0 +1,24 @@
+body {
+    background-color: lightpink;
+}
+
+.btn {
+    background-color: hotpink;
+    border: none;
+    border-radius: 25px;
+    color: black;
+    padding: 15px 25px;
+    margin-top: 300px;
+    margin-bottom: 200px;
+    margin-left: 600px;
+    margin-right: 400px;
+    text-align: center;
+    font-size: larger;
+    box-shadow: -6px =6px 10px rgba(255, 182, 193, 0.863),
+                6px 6px 10px #00000026
+}
+
+.btn:hover {
+    box-shadow: 2px 2px 2px rgba(255, 182, 193, 0.863),
+    -2px -2px 2px #00000026;
+}
